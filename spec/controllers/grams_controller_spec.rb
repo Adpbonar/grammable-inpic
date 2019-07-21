@@ -23,5 +23,8 @@ RSpec.describe GramsController, type: :controller do
       gram = Gram.last
       expect(gram.message).to eq("hello")
     end
+    it "should properly deal with validation errors" do
+      post :ceate, params: { gram: { message: '' } }
+    end
   end
 end
