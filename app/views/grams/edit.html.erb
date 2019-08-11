@@ -1,4 +1,18 @@
-<%= simple_form_for @gram do |f| %>
-  <%= f.input :message %>
-  <%= f.submit %>
-<% end %>
+<div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 card form" align="center">
+  <br />
+  <h2>Edit your gram</h2>
+  <br />
+  <small class="edit-box">Press "Choose File" to change picture, or just edit the text.</small>
+  <%= simple_form_for @gram do |f| %>
+    <p class="label"><%= "Message" %></p>
+    <%= f.text_area :message, :rows => 10, :cols => 80 %>
+    <p class="label">Current picutre<p>
+    <%= image_tag @gram.picture.url, class: 'img-fluid' %>
+    <%= f.input :picture %>
+
+    <br />
+    <%= f.submit "Update!", class: 'post-button' %>
+  <% end %>
+  <br />
+</div>
+<br class="clear" />

@@ -2,11 +2,12 @@
 <br />
   <h1>New Gram</h1>
   <%= simple_form_for @gram do |f| %>
-    <%= "Message" %>
+    <p class="label"><%= "Message" %></p>
     <%= f.text_area :message, :rows => 10, :cols => 80 %>
     <%= f.input :picture %>
     <br />
-    <%= f.submit "Post!", class: 'btn btn-success' %>
+    <%= f.submit "Post!", class: 'post-button' %>
   <% end %>
   <br />
 </div>
+<br class="clear">

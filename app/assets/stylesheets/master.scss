@@ -78,3 +78,95 @@ body {
   padding: 3px;
   border-radius: 5px;
 }
+.edit-box {
+  text-align: center;
+  color: whitesmoke;
+  background-color: green;
+  border: 1px solid rgb(5, 253, 117);
+  padding: 3px;
+  border-radius: 5px;
+  width: 80%;
+}
+.form-inputs {
+  padding: 10px;
+}
+.form-actions {
+  padding: 10px;
+}
+label {
+  font-size: 18px;
+  padding: 5px;
+}
+.label {
+  font-size: 18px;
+  padding: 5px;
+}
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+.post-button {
+  background-color: #125688;
+  width: 100%;
+  border: none;
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+}
+.post-button:hover, .post-button:focus {
+  background-color: rgb(46, 46, 117);
+}
+.input.boolean {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.input.boolean label {
+  margin-top: 5px;
+  line-height: 44px;
+}
+.gram-actions a {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.edit {
+  color: rgb(216, 216, 33);
+}
+.destroy {
+  color: red;
+}
+.edit:hover, edit:focus {
+  color: rgb(216, 216, 33);
+}
+.destroy:hover, destroy:focus {
+  color: red;
+}
+.comments {
+  padding: 20px;
+}
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+  background-color: #054574;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+}
+.comment_handle {
+  font-weight: bold;
+  font-size: 18px;
+}
+blockquote {
+  margin-left: 15px;
+  border-left: 2px solid white;
+  padding-left: 8px;
+}
+.date {
+  text-align: right;
+}
+.date-size {
+  font-size: 12px;
+  font-weight: bold;
+}
