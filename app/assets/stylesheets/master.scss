@@ -4,3 +4,77 @@
 .nav-link {
   color: black;
 }
+.clear {
+  clear:both;
+}
+body {
+  background-color: #ece8e8;
+  font-family: 'Josefin Sans', sans-serif;
+}
+::selection {
+  background-color: #125688;
+  color: whitesmoke	;
+}
+.top-nav {
+  background-color: whitesmoke;
+  border-bottom-color: #4db9b9;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  z-index: 100;
+  border-radius: 25px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.top-nav .add a {
+  font-weight: bold;
+  color: #125688;
+  font-size: 16px;
+  padding-left: 8px;
+}
+.top-nav .add {
+  margin-top: 10px;
+}
+.brand {
+  color: #125688;
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
+  overflow: hidden;
+}
+.brand a {
+  text-decoration: none;
+  color: #125688;
+}
+.card {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #e8e8e8;
+  margin-top: 40px;
+  padding: 0;
+}
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;
+}
+.handle {
+  margin: 10px;
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
+}
+.card.form {
+  padding: 2px;
+}
+.signed-in-as {
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(70,130,180);
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 5px;
+}
