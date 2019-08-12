@@ -38,6 +38,7 @@
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
      <% if current_user %>
+      <br />
         <div class="signed-in-as col-10 offset-1">
           Signed in as <%= current_user.email.truncate(30) %>
         </div>
