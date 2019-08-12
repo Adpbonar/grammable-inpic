@@ -19,7 +19,10 @@
       </div>
       <div class="add float-right">
         <% if current_user %>
-          <%= link_to "Post", new_gram_path %>
+          <%= link_to new_gram_path, class: 'btn btn-info'  do%>
+            Post
+            <i class="fa fa-plus"></i>
+          <% end %>
           <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
         <% else %>
           <%= link_to "Sign In", new_user_session_path %>
