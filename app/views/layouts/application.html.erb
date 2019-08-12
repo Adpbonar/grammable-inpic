@@ -15,7 +15,7 @@
   <div class="top-nav">
     <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
       <div class="brand float-left">
-        <p class="brand"><%= link_to "#{image_tag('inpic.png')} &nbsp;A TDD excersize".html_safe, root_path %></p>
+        <%= link_to "#{image_tag('inpic.png', alt: "Inpic Logo" )} &nbsp;A TDD excersize".html_safe, root_path %></p>
       </div>
       <div class="add float-right">
         <% if current_user %>
@@ -44,6 +44,8 @@
         </div>
         <br />
       <% end%>
+
+      
     <%= yield %>
   </body>
 </html>

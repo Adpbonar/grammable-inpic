@@ -16,17 +16,17 @@ body {
   color: whitesmoke	;
 }
 .top-nav {
-  background-color: whitesmoke;
+  background-color: whitesmoke !important;
   border-bottom-color: #4db9b9;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   z-index: 100;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 98%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  height: 70px;
+  height: 75px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -41,9 +41,11 @@ body {
 }
 .brand {
   color: #125688;
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Pacifico', cursive;
   overflow: hidden;
+  text-align: left;
+  width: 120px;
 }
 .brand a {
   text-decoration: none;
@@ -174,7 +176,7 @@ blockquote {
 }
 .btn-info {
   color: white !important;
-  padding:2 px !important;
+  padding:2px !important;
   width: 65px;
-  height: 30px;
+  text-align: center;
 }
