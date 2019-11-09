@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Built using Ruby 2.5.3 and Rails 5.2.3, this simple Instagram clone uses rspec to allow for coding in a T.D.D. way (following red/green/refactor cycles). It is styled using CSS and Bootstrap.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img src="http://www.devanpotterbonar.com/assets/grammable-dc6181d9763524b192b1c2f99c5297481620372623fdc351abfd1aea4844d29c.png" />
+<br />
+<br />
+Kick the tires: https://inpic-devan-potter-bonar.herokuapp.com.
