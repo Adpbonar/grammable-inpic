@@ -1,4 +1,4 @@
-# inpic
+# Inpic
 
 Built using Ruby 2.5.3 and Rails 5.2.3, this simple Instagram clone uses RSpec to allow for coding in a T.D.D. way (following red/green/refactor cycles). It allows users to post messages, upload pictures (through integration with AWS S3) and and make comments and is styled using CSS and Bootstrap.
 
